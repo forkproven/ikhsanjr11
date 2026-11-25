@@ -30,6 +30,16 @@
           "transport": "mcp"
         }
       ]
+    },
+    "payment_handlers": {
+      "dev.shopify.shop_pay": [
+        {
+          "id": "lmesi-research-agent",
+          "version": "2026-08-25",
+          "spec": "https://shopify.dev/docs/agents/carts-and-checkout/shop-pay-handler",
+          "config": {}
+        }
+      ]
     }
   },
   "keys": [
