@@ -16,11 +16,6 @@
         {
           "version": "2026-08-25"
         }
-      ],
-      "dev.ucp.shopping.checkout": [
-        {
-          "version": "2026-08-25"
-        }
       ]
     },
     "services": {
