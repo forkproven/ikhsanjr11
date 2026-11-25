@@ -1,0 +1,38 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "capabilities": {
+      "dev.ucp.shopping.cart": [
+        {
+          "version": "2026-08-25"
+        }
+      ],
+      "dev.ucp.shopping.catalog.search": [
+        {
+          "version": "2026-08-25"
+        }
+      ],
+      "dev.ucp.shopping.catalog.lookup": [
+        {
+          "version": "2026-08-25"
+        }
+      ],
+      "dev.ucp.shopping.checkout": [
+        {
+          "version": "2026-08-25"
+        }
+      ]
+    }
+  },
+  "keys": [
+    {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "4rzkTctC5jKij379R6oR8OwdwYR8dknmW0LjffroX2U",
+      "y": "kMJj5Iw9keF7Bmgv0Kwp_BKUYz1EkIec4GDmLHvK3nY",
+      "kid": "lmesi-b-2026-11-25",
+      "use": "sig",
+      "alg": "ES256"
+    }
+  ]
+}
