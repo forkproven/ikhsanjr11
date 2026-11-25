@@ -1,0 +1,62 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "capabilities": {
+      "dev.ucp.shopping.cart": [
+        {
+          "version": "2026-08-25"
+        }
+      ],
+      "dev.ucp.shopping.catalog.search": [
+        {
+          "version": "2026-08-25"
+        }
+      ],
+      "dev.ucp.shopping.catalog.lookup": [
+        {
+          "version": "2026-08-25"
+        }
+      ],
+      "dev.ucp.common.ask": [
+        {
+          "version": "2026-08-25"
+        }
+      ]
+    },
+    "services": {
+      "dev.ucp.shopping": [
+        {
+          "version": "2026-08-25",
+          "transport": "mcp"
+        }
+      ],
+      "dev.ucp.common": [
+        {
+          "version": "2026-08-25",
+          "transport": "mcp"
+        }
+      ]
+    },
+    "payment_handlers": {
+      "dev.shopify.shop_pay": [
+        {
+          "id": "lmesi-research-agent",
+          "version": "2026-08-25",
+          "spec": "https://shopify.dev/docs/agents/carts-and-checkout/shop-pay-handler",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "keys": [
+    {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "T0RYiHT2aua9pycFM0bhhxOWupshoIz2oza60y_kBBI",
+      "y": "8rvRYCeBj-nYOUSYhzv3j2OgKtr6wlR2rz7Tmx88XZM",
+      "kid": "lmesi-a-2026-11-25",
+      "use": "sig",
+      "alg": "ES256"
+    }
+  ]
+}
